@@ -1,0 +1,9 @@
+.DS_Store
+.codelite/
+.clangd/
+build-Debug/
+Debug/
+Makefile
+compile_commands.json
+*.mk
+*.txt
