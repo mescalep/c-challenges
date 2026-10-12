@@ -6,14 +6,14 @@ int main() {
     int oddNumber = 0;
     
     while(number != 0) {
-        printf("Introduce your number: \n");
+        printf("Enter your number: \n");
         scanf("%d", &number);
         if(number !=0) {
             if(number %2 == 0) {
-                printf("Your number is a even: %d\n", number);
+                printf("Your number is an even: %d\n", number);
                 evenNumber++;
             } else {
-                printf("Your number is a odd: %d\n\n", number);
+                printf("Your number is an odd: %d\n", number);
                 oddNumber++;
             }
         }
